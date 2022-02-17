@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Sparse Matrix Calculator</h1>
+        <textarea id='userInput' placeholder="
+        Input your matrix in form of : row , column , value
+        for example :
+        6 7 7
+        0 2 1
+        1 1 2
+        2 0 3
+        3 3 5
+        4 4 6
+        5 5 7
+        5 6 4"></textarea>
+        
+        <br>
+        <div class="btnwrapper">
+
+            <div id='crt' class="Btn" onclick="createMatrix()">Create</div>
+            <div id='add' class="Btn" onclick="add()">Add</div>
+            <div id='sub' class="Btn" onclick="sub()">Subtract</div>
+            <div id='mul' class="Btn" onclick="mul()">Multiple</div>
+            <div id='tas1' class="Btn" onclick="tas1()">Transpose1</div>
+            <div id='tas2' class="Btn" onclick="tas2()">Transpose2</div>
+            <div id='clr' class="Btn" onclick="clr()">ClearAll</div>
+            
+        </div>
+
+        <br>
+
+        <div id="tail"></div>
+
+</body>
+<script src="script.js"></script>
+</html>
